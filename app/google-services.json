@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365283210310",
+    "project_id": "giggles-e9f6c",
+    "storage_bucket": "giggles-e9f6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365283210310:android:31d4f5b9edd66483b24647",
+        "android_client_info": {
+          "package_name": "com.example.Giggles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365283210310-6bh9pbstgqte1gmvbefbgfp707tg909p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7EXtxo15PgJaH1jqKu-v6IR9YZm00zyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365283210310-6bh9pbstgqte1gmvbefbgfp707tg909p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

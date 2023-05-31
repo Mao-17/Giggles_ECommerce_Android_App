@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:foregroundTint="@color/black">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/white"
+        android:contextClickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:titleMargin="0dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:foregroundTint="@color/white"
+        android:tint="@color/white"
+        app:backgroundTint="@color/white"
+        app:elevation="0dp"
+        app:fabCustomSize="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:maxImageSize="30dp"
+        app:rippleColor="@color/white"
+        app:srcCompat="@drawable/ic_home_menu_main" />
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="-6dp"
+        android:text="Home"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="@+id/fabHome"
+        app:layout_constraintTop_toBottomOf="@+id/fabHome" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCommunity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:foregroundTint="@color/white"
+        android:tint="@color/white"
+        app:backgroundTint="@color/white"
+        app:elevation="0dp"
+        app:fabCustomSize="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:maxImageSize="40dp"
+        app:rippleColor="@color/white"
+        app:srcCompat="@drawable/ic_my_community" />
+
+    <TextView
+        android:id="@+id/tvCommunity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="-6dp"
+        android:text="Community"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toBottomOf="@+id/fabCommunity" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:foregroundTint="@color/white"
+        android:tint="@color/white"
+        app:backgroundTint="@color/white"
+        app:elevation="0dp"
+        app:fabCustomSize="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:maxImageSize="30dp"
+        app:rippleColor="@color/white"
+        app:srcCompat="@drawable/ic_my_profile" />
+
+
+    <TextView
+        android:id="@+id/tvProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="-6dp"
+        android:text="Profile"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toBottomOf="@+id/fabProfile" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:foregroundTint="@color/white"
+        app:backgroundTint="@color/white"
+        app:elevation="0dp"
+        app:fabCustomSize="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:maxImageSize="26dp"
+        app:rippleColor="@color/white"
+        app:srcCompat="@drawable/ic_my_cart" />
+
+    <TextView
+        android:id="@+id/tvCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="-6dp"
+        android:text="Cart"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fabProfile" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:foregroundTint="@color/white"
+        android:tint="@color/white"
+        app:backgroundTint="@color/white"
+        app:elevation="0dp"
+        app:fabCustomSize="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:maxImageSize="26dp"
+        app:rippleColor="@color/white"
+        app:srcCompat="@drawable/ic_my_search" />
+
+    <TextView
+        android:id="@+id/tvSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="-6dp"
+        android:text="Search"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toBottomOf="@+id/fabSearch" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/toy_image_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/toy_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/toy_image_view"
+        android:layout_toEndOf="@+id/toy_image_view"
+        android:layout_toRightOf="@+id/toy_image_view"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/toy_category_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toy_title_text_view"
+        android:layout_toEndOf="@+id/toy_image_view"
+        android:layout_toRightOf="@+id/toy_image_view"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/toy_brand_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toy_category_text_view"
+        android:layout_toEndOf="@+id/toy_image_view"
+        android:layout_toRightOf="@+id/toy_image_view"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/toy_condition_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toy_brand_text_view"
+        android:layout_toEndOf="@+id/toy_image_view"
+        android:layout_toRightOf="@+id/toy_image_view"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/toy_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toy_image_view"
+        android:layout_toEndOf="@+id/toy_image_view"
+        android:layout_toRightOf="@+id/toy_image_view"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+</RelativeLayout>
